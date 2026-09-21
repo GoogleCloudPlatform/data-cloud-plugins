@@ -21,8 +21,8 @@ server-side webhook handlers). 27 + 6 − 1 = 32.
 ## Install
 
 ```bash
-git clone https://github.com/GoogleCloudPlatform/data-agent-kit.git
-cd data-agent-kit/ucp-analytics
+git clone https://github.com/GoogleCloudPlatform/data-cloud-plugins.git
+cd data-cloud-plugins/ucp-analytics
 ```
 
 `quickstart.py` declares its runtime dependency inline via
@@ -168,5 +168,5 @@ read and easy to grow.
 
 ## License
 
-[Apache 2.0](../LICENSE), inherited from the Data Agent Kit
+[Apache 2.0](../LICENSE), inherited from the Data Cloud Plugins
 repository.

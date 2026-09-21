@@ -1,7 +1,7 @@
 {
-  "name": "data-agent-kit",
+  "name": "data-cloud-plugins",
   "interface": {
-    "displayName": "Data Agent Kit"
+    "displayName": "Data Cloud Plugins"
   },
   "plugins": [
     {
