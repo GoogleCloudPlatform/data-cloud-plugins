@@ -26,7 +26,7 @@
   "packages": {
     ".": {
       "release-type": "simple",
-      "package-name": "data-agent-kit",
+      "package-name": "data-cloud-plugins",
       "extra-files": [
         "README.md",
         {
