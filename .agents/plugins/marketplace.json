@@ -121,7 +121,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/gemini-cli-extensions/google-cloud-storage.git",
-        "ref": "1.2.0"
+        "ref": "1.4.0"
       },
       "description": "Vetted Google Cloud Storage skills for your coding agent.",
       "policy": {

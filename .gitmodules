@@ -41,7 +41,7 @@
 [submodule "google-cloud-storage"]
 	path = plugins/google-cloud-storage
 	url = https://github.com/gemini-cli-extensions/google-cloud-storage
-	branch = 1.2.0
+	branch = 1.4.0
 [submodule "bigquery-data-analytics"]
 	path = plugins/bigquery-data-analytics
 	url = https://github.com/gemini-cli-extensions/bigquery-data-analytics.git
