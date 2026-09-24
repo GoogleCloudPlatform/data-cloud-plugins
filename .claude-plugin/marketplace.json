@@ -104,7 +104,7 @@
       "source": {
         "source": "github",
         "repo": "gemini-cli-extensions/oracledb",
-        "ref": "0.2.3"
+        "ref": "0.2.7"
       },
       "description": "Connect, query, and interact with Oracle Databases and their data within Gemini CLI."
     },
