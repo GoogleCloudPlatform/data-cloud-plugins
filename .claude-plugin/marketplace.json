@@ -140,7 +140,7 @@
       "source": {
         "source": "github",
         "repo": "gemini-cli-extensions/bigquery-data-analytics",
-        "ref": "0.2.1"
+        "ref": "0.2.5"
       },
       "description": "Data Analytics skills for BigQuery."
     },
