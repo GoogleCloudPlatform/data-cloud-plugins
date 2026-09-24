@@ -5,7 +5,7 @@
     "email": "data-cloud-ai-integrations@google.com"
   },
   "metadata": {
-    "version": "0.1.7",
+    "version": "0.1.8",
     "description": "A repository of prescriptive plugins and tools designed to provide a high-performance experience for building and deploying agentic applications across the Google Data Cloud ecosystem."
   },
   "plugins": [
