@@ -29,7 +29,7 @@
 [submodule "spanner"]
 	path = plugins/spanner
 	url = https://github.com/gemini-cli-extensions/spanner
-	branch = 0.3.1
+	branch = 0.3.5
 [submodule "firestore-native"]
 	path = plugins/firestore-native
 	url = https://github.com/gemini-cli-extensions/firestore-native
