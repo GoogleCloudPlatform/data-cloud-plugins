@@ -93,7 +93,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/gemini-cli-extensions/firestore-native.git",
-        "ref": "0.3.1"
+        "ref": "0.3.4"
       },
       "description": "Connect and interact with Cloud Firestore.",
       "policy": {
