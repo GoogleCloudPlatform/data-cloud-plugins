@@ -122,7 +122,7 @@
       "source": {
         "source": "github",
         "repo": "gemini-cli-extensions/knowledge-catalog",
-        "ref": "0.5.2"
+        "ref": "0.5.4"
       },
       "description": "Skills for Knowledge Catalog."
     },
