@@ -93,7 +93,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/gemini-cli-extensions/firestore-native.git",
-        "ref": "0.3.1"
+        "ref": "0.3.4"
       },
       "description": "Connect and interact with Cloud Firestore.",
       "policy": {
@@ -121,7 +121,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/gemini-cli-extensions/google-cloud-storage.git",
-        "ref": "1.2.0"
+        "ref": "2.6.0"
       },
       "description": "Vetted Google Cloud Storage skills for your coding agent.",
       "policy": {
@@ -135,7 +135,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/gemini-cli-extensions/looker.git",
-        "ref": "0.3.5"
+        "ref": "0.3.10"
       },
       "description": "Connect to Looker.",
       "policy": {
@@ -149,7 +149,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/gemini-cli-extensions/oracledb.git",
-        "ref": "0.2.3"
+        "ref": "0.2.6"
       },
       "description": "Connect, query, and interact with Oracle Databases and their data within Gemini CLI.",
       "policy": {
@@ -163,7 +163,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/gemini-cli-extensions/spanner.git",
-        "ref": "0.3.1"
+        "ref": "0.3.5"
       },
       "description": "Connect and interact with Spanner data using natural language.",
       "policy": {
@@ -177,7 +177,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/gemini-cli-extensions/knowledge-catalog.git",
-        "ref": "0.5.2"
+        "ref": "0.5.3"
       },
       "description": "Skills for Knowledge Catalog.",
       "policy": {
@@ -205,7 +205,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/gemini-cli-extensions/bigquery-data-analytics.git",
-        "ref": "0.2.1"
+        "ref": "0.2.2"
       },
       "description": "Data Analytics skills for BigQuery.",
       "policy": {

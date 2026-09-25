@@ -68,7 +68,7 @@
       "source": {
         "source": "github",
         "repo": "gemini-cli-extensions/firestore-native",
-        "ref": "0.3.1"
+        "ref": "0.3.4"
       },
       "description": "Connect and interact with Cloud Firestore."
     },
@@ -86,7 +86,7 @@
       "source": {
         "source": "github",
         "repo": "gemini-cli-extensions/google-cloud-storage",
-        "ref": "1.2.0"
+        "ref": "2.6.0"
       },
       "description": "Vetted Google Cloud Storage skills for your coding agent."
     },
@@ -95,7 +95,7 @@
       "source": {
         "source": "github",
         "repo": "gemini-cli-extensions/looker",
-        "ref": "0.3.5"
+        "ref": "0.3.10"
       },
       "description": "Connect to Looker."
     },
@@ -104,7 +104,7 @@
       "source": {
         "source": "github",
         "repo": "gemini-cli-extensions/oracledb",
-        "ref": "0.2.3"
+        "ref": "0.2.6"
       },
       "description": "Connect, query, and interact with Oracle Databases and their data within Gemini CLI."
     },
@@ -113,7 +113,7 @@
       "source": {
         "source": "github",
         "repo": "gemini-cli-extensions/spanner",
-        "ref": "0.3.1"
+        "ref": "0.3.5"
       },
       "description": "Connect and interact with Spanner data using natural language."
     },
@@ -122,7 +122,7 @@
       "source": {
         "source": "github",
         "repo": "gemini-cli-extensions/knowledge-catalog",
-        "ref": "0.5.2"
+        "ref": "0.5.3"
       },
       "description": "Skills for Knowledge Catalog."
     },
@@ -140,7 +140,7 @@
       "source": {
         "source": "github",
         "repo": "gemini-cli-extensions/bigquery-data-analytics",
-        "ref": "0.2.1"
+        "ref": "0.2.2"
       },
       "description": "Data Analytics skills for BigQuery."
     },
@@ -150,7 +150,7 @@
         "source": "git-subdir",
         "url": "GoogleCloudPlatform/db-context-enrichment",
         "path": "plugin",
-        "ref": "v0.6.0"
+        "ref": "v0.7.2"
       },
       "description": "Context Engineering Agent for generating and maintaining QueryData / Conversational Analytics API context sets (templates, facets, value searches) for natural language to SQL tasks. Works with AlloyDB, Cloud SQL for MySQL, Cloud SQL for PostgreSQL, and Spanner."
     }
