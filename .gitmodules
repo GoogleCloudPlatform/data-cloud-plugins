@@ -21,7 +21,7 @@
 [submodule "looker"]
 	path = plugins/looker
 	url = https://github.com/gemini-cli-extensions/looker
-	branch = 0.3.5
+	branch = 0.3.11
 [submodule "oracledb"]
 	path = plugins/oracledb
 	url = https://github.com/gemini-cli-extensions/oracledb

@@ -95,7 +95,7 @@
       "source": {
         "source": "github",
         "repo": "gemini-cli-extensions/looker",
-        "ref": "0.3.5"
+        "ref": "0.3.11"
       },
       "description": "Connect to Looker."
     },
