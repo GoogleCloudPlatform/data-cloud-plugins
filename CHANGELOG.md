@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.1.8](https://github.com/GoogleCloudPlatform/data-cloud-plugins/compare/0.1.7...0.1.8) (2026-10-08)
+
+
+### Features
+
+* **deps:** update data-agent-kit-starter-pack to v0.10.0 ([#82](https://github.com/GoogleCloudPlatform/data-cloud-plugins/issues/82)) ([b4dc2b1](https://github.com/GoogleCloudPlatform/data-cloud-plugins/commit/b4dc2b1e5f79eee8ce1d2136f699201844bfc213))
+* **deps:** update data-agent-kit-starter-pack to v0.10.1 ([#84](https://github.com/GoogleCloudPlatform/data-cloud-plugins/issues/84)) ([598d19c](https://github.com/GoogleCloudPlatform/data-cloud-plugins/commit/598d19cee0193e3e51d294d75881902495f8622e))
+* update plugins after org migration ([#89](https://github.com/GoogleCloudPlatform/data-cloud-plugins/issues/89)) ([c79779f](https://github.com/GoogleCloudPlatform/data-cloud-plugins/commit/c79779fb0fdabb5d901d3bc0bce646313e37b07c))
+* update repo name ([#87](https://github.com/GoogleCloudPlatform/data-cloud-plugins/issues/87)) ([37f9e03](https://github.com/GoogleCloudPlatform/data-cloud-plugins/commit/37f9e03a2c0fee4e40e5d37bb2dccec4f999a077))
+
 ## [0.1.7](https://github.com/GoogleCloudPlatform/data-agent-kit/compare/0.1.6...0.1.7) (2026-08-07)
 
 
