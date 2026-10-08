@@ -1,4 +1,4 @@
-# Data Agent Kit
+# Data Cloud Plugins
 
 This repository serves as the central hub for embedding the Agentic Data Cloud across your favorite developer-focused AI tools. 
 
@@ -6,7 +6,7 @@ Whether you are a developer vibe-coding in Claude Code, an enterprise engineer u
 
 ## 📓 What's Included
 
-The Data Agent Kit is currently organized as an index pointing to product-specific extensions, MCP configurations, and builder tools.
+Data Cloud Plugins is currently organized as an index pointing to product-specific extensions, MCP configurations, and builder tools.
 
 - [Extensions & Plugins](#individual-extensions--plugins)
 - [MCP Servers](#model-context-protocol-mcp)
@@ -31,25 +31,25 @@ gemini extensions install https://github.com/gemini-cli-extensions/<REPO>
 <details>
 <summary><h3>Claude Code Installation</h3></summary>
 
-Claude Code utilizes a marketplace system for plugins. Install the Data Agent Kit marketplace to access all Data Cloud plugins:
+Claude Code utilizes a marketplace system for plugins. Install the Data Cloud Plugins marketplace to access all Data Cloud plugins:
 
 ```bash
 # Step 1. Install marketplace
 ## Option 1. Install marketplace from CLI
-claude plugin marketplace add GoogleCloudPlatform/data-agent-kit
+claude plugin marketplace add GoogleCloudPlatform/data-cloud-plugins
 
 ## Option 2. Install marketplace from Claude
-/plugin marketplace add https://github.com/GoogleCloudPlatform/data-agent-kit.git
+/plugin marketplace add https://github.com/GoogleCloudPlatform/data-cloud-plugins.git
 
 # Step 2. Install a plugin
 claude
-/plugin install <plugin-name>@data-agent-kit
+/plugin install <plugin-name>@data-cloud-plugins
 
 # Step 3. Reload plugins
 /reload-plugins
 
 # Optional. Update the marketplace
-claude plugin marketplace update data-agent-kit
+claude plugin marketplace update data-cloud-plugins
 ```
 
 </details>
@@ -57,17 +57,17 @@ claude plugin marketplace update data-agent-kit
 <details>
 <summary><h3>OpenAI Codex Installation</h3></summary>
 
-Codex utilizes a marketplace system for plugins. Install the Data Agent Kit marketplace to access all Data Cloud plugins:
+Codex utilizes a marketplace system for plugins. Install the Data Cloud Plugins marketplace to access all Data Cloud plugins:
 
 ```bash
 # Step 1. Install marketplace
-codex plugin marketplace add GoogleCloudPlatform/data-agent-kit
+codex plugin marketplace add GoogleCloudPlatform/data-cloud-plugins
 
 # Step 2. Install a plugin
-codex plugin add <plugin-name>@data-agent-kit
+codex plugin add <plugin-name>@data-cloud-plugins
 
 # Optional. Update the marketplace
-codex plugin marketplace upgrade data-agent-kit
+codex plugin marketplace upgrade data-cloud-plugins
 ```
 
 </details>
@@ -77,12 +77,12 @@ codex plugin marketplace upgrade data-agent-kit
 
 Antigravity CLI installs plugins directly from remote GitHub repositories. You have two options:
 
-**Option 1. Install the full Data Agent Kit**
+**Option 1. Install the full Data Cloud Plugins collection**
 
 Installs all Data Cloud plugins from this repository in one step:
 
 ```bash
-agy plugin install https://github.com/GoogleCloudPlatform/data-agent-kit
+agy plugin install https://github.com/GoogleCloudPlatform/data-cloud-plugins
 ```
 
 **Option 2. Install individual plugins from their product repositories**
@@ -96,8 +96,8 @@ agy plugin install <REPO>
 For example:
 
 ```bash
-agy plugin install https://github.com/gemini-cli-extensions/alloydb
-agy plugin install https://github.com/gemini-cli-extensions/spanner
+agy plugin install https://github.com/GoogleCloudPlatform/alloydb-plugin
+agy plugin install https://github.com/GoogleCloudPlatform/spanner-plugin
 ```
 
 See the [Individual Extensions & Plugins](#-individual-extensions--plugins) table below for the full list of repositories.
@@ -112,19 +112,19 @@ These extensions package product-specific Skills and MCP servers for use in any 
 
 | Product | Location | Description |
 | :--- | :--- | :--- |
-| **Data Agent Kit Starter Pack** | https://github.com/gemini-cli-extensions/data-agent-kit-starter-pack | This plugin provides a specialized suite of skills for data users using BigQuery, Dataflow and Managed Apache Spark  along with Knowledge catalog. It acts as an expert assistant, allowing you to use natural language prompts in your preferred coding agent to architect complex data pipelines, transform data with dbt, write Spark and BigQuery SQL notebooks, create and troubleshoot Dataflow pipelines, and orchestrate end-to-end workflows across the GCP data ecosystem. |
-| **AlloyDB for PostgreSQL** | https://github.com/gemini-cli-extensions/alloydb | Create, connect, and interact with an AlloyDB for PostgreSQL database and data. |
-| **AlloyDB Omni** | https://github.com/gemini-cli-extensions/alloydb-omni | Create, connect, and interact with an AlloyDB Omni database and data. |
+| **Data Agent Kit** | https://github.com/GoogleCloudPlatform/data-agent-kit-plugin | This plugin provides a specialized suite of skills for data users using BigQuery, Dataflow and Managed Apache Spark  along with Knowledge catalog. It acts as an expert assistant, allowing you to use natural language prompts in your preferred coding agent to architect complex data pipelines, transform data with dbt, write Spark and BigQuery SQL notebooks, create and troubleshoot Dataflow pipelines, and orchestrate end-to-end workflows across the GCP data ecosystem. |
+| **AlloyDB for PostgreSQL** | https://github.com/GoogleCloudPlatform/alloydb-plugin | Create, connect, and interact with an AlloyDB for PostgreSQL database and data. |
+| **AlloyDB Omni** | https://github.com/GoogleCloudPlatform/alloydb-omni-plugin | Create, connect, and interact with an AlloyDB Omni database and data. |
 | **Bigtable** | https://github.com/GoogleCloudPlatform/cloud-bigtable-ecosystem | Connect, query, and interact with Cloud Bigtable. |
-| **Cloud SQL for MySQL** | https://github.com/gemini-cli-extensions/cloud-sql-mysql | Connect and interact with a Cloud SQL for MySQL database and data. |
-| **Cloud SQL for PostgreSQL** | https://github.com/gemini-cli-extensions/cloud-sql-postgresql | Create, connect, and interact with a Cloud SQL for PostgreSQL database and data. |
-| **Cloud SQL for SQL Server** | https://github.com/gemini-cli-extensions/cloud-sql-sqlserver | Connect to Cloud SQL for SQL Server. |
+| **Cloud SQL for MySQL** | https://github.com/GoogleCloudPlatform/cloud-sql-mysql-plugin | Connect and interact with a Cloud SQL for MySQL database and data. |
+| **Cloud SQL for PostgreSQL** | https://github.com/GoogleCloudPlatform/cloud-sql-postgresql-plugin | Create, connect, and interact with a Cloud SQL for PostgreSQL database and data. |
+| **Cloud SQL for SQL Server** | https://github.com/GoogleCloudPlatform/cloud-sql-sqlserver-plugin | Connect to Cloud SQL for SQL Server. |
 | **DB Context Engineering Agent** | https://github.com/GoogleCloudPlatform/db-context-enrichment | Author and maintain QueryData / Conversational Analytics API context sets (templates, facets, value searches) that teach the NL→SQL planner your schema vocabulary and golden query shapes. |
-| **Firestore** | https://github.com/gemini-cli-extensions/firestore-native | Connect and interact with Cloud Firestore. |
-| **Google Cloud Storage** | https://github.com/gemini-cli-extensions/google-cloud-storage | Vetted Google Cloud Storage skills for your coding agent. |
-| **Looker** | https://github.com/gemini-cli-extensions/looker | Connect to Looker. |
-| **Oracle Database** | https://github.com/gemini-cli-extensions/oracledb | Connect, query, and interact with Oracle Databases and their data within Gemini CLI. |
-| **Spanner** | https://github.com/gemini-cli-extensions/spanner | Connect and interact with Spanner data using natural language. |
+| **Firestore** | https://github.com/GoogleCloudPlatform/firestore-native-plugin | Connect and interact with Cloud Firestore. |
+| **Google Cloud Storage** | https://github.com/GoogleCloudPlatform/google-cloud-storage-plugin | Vetted Google Cloud Storage skills for your coding agent. |
+| **Looker** | https://github.com/GoogleCloudPlatform/looker-plugin | Connect to Looker. |
+| **Oracle Database** | https://github.com/GoogleCloudPlatform/oracledb-plugin | Connect, query, and interact with Oracle Databases and their data within Gemini CLI. |
+| **Spanner** | https://github.com/GoogleCloudPlatform/spanner-plugin | Connect and interact with Spanner data using natural language. |
 
 
 ## 🧩 Model Context Protocol (MCP) Servers

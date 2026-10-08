@@ -1,6 +1,6 @@
-# Developer Guide: Google Data Agent Kit
+# Developer Guide: Google Data Cloud Plugins
 
-This document provides instructions for developers contributing to the Google Data Agent Kit.
+This document provides instructions for developers contributing to the Google Data Cloud Plugins.
 
 ## Prerequisites
 
@@ -15,8 +15,8 @@ This document provides instructions for developers contributing to the Google Da
 When cloning this repository for the first time, you need to initialize the submodules:
 
 ```bash
-git clone --recurse-submodules https://github.com/googlecloudplatform/data-agent-kit.git
-cd data-agent-kit
+git clone --recurse-submodules https://github.com/googlecloudplatform/data-cloud-plugins.git
+cd data-cloud-plugins
 ```
 
 If you have already cloned the repository without submodules, initialize and update them:
