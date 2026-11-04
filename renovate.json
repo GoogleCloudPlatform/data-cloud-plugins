@@ -29,7 +29,7 @@
         "git-submodules",
         "custom.jsonata"
       ],
-      "groupName": "{{{replace 'plugins/' '' depName}}}",
+      "groupName": "{{{replace '^plugins/|-plugin$' '' depName}}}",
       "semanticCommitType": "feat"
     },
     {
@@ -47,21 +47,11 @@
       "customType": "jsonata",
       "fileFormat": "json",
       "managerFilePatterns": [
-        "/^\\.claude-plugin/marketplace\\.json$/"
-      ],
-      "matchStrings": [
-        "plugins.{ \"depName\": $substringAfter(source.repo, \"/\"), \"packageName\": source.repo, \"currentValue\": source.ref }"
-      ],
-      "datasourceTemplate": "github-tags"
-    },
-    {
-      "customType": "jsonata",
-      "fileFormat": "json",
-      "managerFilePatterns": [
+        "/^\\.claude-plugin/marketplace\\.json$/",
         "/^\\.agents/plugins/marketplace\\.json$/"
       ],
       "matchStrings": [
-        "plugins.($r := $replace(source.url, /^https:\\/\\/github\\.com\\/|\\.git$/, \"\"); { \"depName\": $substringAfter($r, \"/\"), \"packageName\": $r, \"currentValue\": source.ref })"
+        "plugins.($r := $replace(source.repo ? source.repo : source.url, /^https:\\/\\/github\\.com\\/|\\.git$/, \"\"); { \"depName\": $replace($substringAfter($r, \"/\"), /-plugin$/, \"\"), \"packageName\": $r, \"currentValue\": source.ref })"
       ],
       "datasourceTemplate": "github-tags"
     }
