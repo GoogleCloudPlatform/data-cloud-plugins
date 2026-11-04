@@ -1,7 +1,7 @@
 [submodule "alloydb"]
 	path = plugins/alloydb
 	url = https://github.com/GoogleCloudPlatform/alloydb-plugin
-	branch = 0.2.0
+	branch = 0.2.1
 [submodule "alloydb-omni"]
 	path = plugins/alloydb-omni
 	url = https://github.com/GoogleCloudPlatform/alloydb-omni-plugin

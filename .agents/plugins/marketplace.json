@@ -9,7 +9,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/GoogleCloudPlatform/alloydb-plugin.git",
-        "ref": "0.2.0"
+        "ref": "0.2.1"
       },
       "description": "Create, connect, and interact with an AlloyDB for PostgreSQL database and data.",
       "policy": {
