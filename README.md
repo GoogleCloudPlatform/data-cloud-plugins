@@ -23,7 +23,7 @@ Extensions and plugins are the primary way to inject specialized capabilities in
 
 Gemini CLI extensions are installed directly from their remote GitHub repositories.
 ```bash
-gemini extensions install https://github.com/gemini-cli-extensions/<REPO>
+gemini extensions install https://github.com/GoogleCloudPlatform/<REPO>
 ```
 
 </details>
