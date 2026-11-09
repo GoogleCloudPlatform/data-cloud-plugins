@@ -15,8 +15,11 @@
 name: PR assignment
 
 on:
-  pull_request_target:
+  pull_request_target: # zizmor: ignore[dangerous-triggers] - needs write token on fork PRs; never checks out or runs PR code
     types: [opened, edited, reopened]
+    branches: [main]
+
+permissions: {}
 
 jobs:
   auto-assign:
