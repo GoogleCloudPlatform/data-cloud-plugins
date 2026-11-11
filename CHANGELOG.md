@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.8](https://github.com/GoogleCloudPlatform/data-agent-kit/compare/0.1.7...0.1.8) (2026-09-04)
+
+
+### Features
+
+* **deps:** update data-agent-kit-starter-pack to v0.10.0 ([#82](https://github.com/GoogleCloudPlatform/data-agent-kit/issues/82)) ([b4dc2b1](https://github.com/GoogleCloudPlatform/data-agent-kit/commit/b4dc2b1e5f79eee8ce1d2136f699201844bfc213))
+* **deps:** update data-agent-kit-starter-pack to v0.10.1 ([#84](https://github.com/GoogleCloudPlatform/data-agent-kit/issues/84)) ([598d19c](https://github.com/GoogleCloudPlatform/data-agent-kit/commit/598d19cee0193e3e51d294d75881902495f8622e))
+
 ## [0.1.7](https://github.com/GoogleCloudPlatform/data-agent-kit/compare/0.1.6...0.1.7) (2026-08-07)
 
 
